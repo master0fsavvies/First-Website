@@ -1,0 +1,225 @@
+﻿<html>
+<head>
+	<title>CSIS Resume Project</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta name="description" content="Check out my awesome hand-coded online resume website!" />
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Raleway|Courgette" rel='stylesheet' type='text/css'>
+	<style>
+	body {
+		background-color: #999900;
+	}
+	#main {
+		color: #666600;
+		background-color: white;
+		border: #333333 1px solid;
+		border-radius: 33px;
+		margin: 44px auto;
+		padding: 44px 4%;
+		width: 86%;
+		max-width: 1460px;
+		font-family: Raleway;
+	}
+	h1, h2 {
+		margin: 33px 0;
+		font-family: Lobster;
+		text-align: center;
+		color: #333333;
+		font-size: 1.3em;
+		letter-spacing: .3em;
+	}
+	.flex-row {
+		display: flex;
+		flex-flow: row wrap;
+		width: 100%;
+		column-gap: 16px;
+		row-gap: 13px;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 36px;
+	}
+	.icons-row section {
+		max-width: 300px;
+		text-align: center;
+		font-size: 90%;
+	}
+	.feather {
+		width: 44px;
+		height: 44px;
+		stroke: olive;
+		stroke-width: 2;
+		stroke-linecap: round;
+		stroke-linejoin: round;
+		fill: none;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	a:link,
+	a:visited {
+		color: #141e00;
+		text-decoration: none;
+	}
+	#career {
+		width: 80%;
+		margin: 0 auto;
+		background-color: #cccccc;
+		padding: 0 20px 15px 20px;
+		border: 2px solid #333333;
+		border-radius: 10px;
+	}
+	h3 {
+		font-family: Courgette;
+		color: #333333;
+		letter-spacing: .15em;
+		font-size: 1.2em;
+	}
+	h3::before {
+		padding-right: 7px;
+		content: url("images/gold-arrow.png");
+	}
+	#work-history p>img {
+		float: left;
+		margin: 0 18px 18px 0;
+	}
+	#work-history p {
+		overflow: auto; 
+	}
+	div.bottom-row section{
+		max-width: 560px;
+	}
+	#contact-form{
+		margin: 10px 1%;
+		padding: 13px 33px;
+		background: url(images/contact-background.png);
+		border: #333333 1px solid;
+		border-radius: 13px;
+	}
+	</style>
+</head>
+
+<body>
+	<div id="main">
+		<h1>CSIS 132 Resume Project</h1>
+		<div class="flex-row icons-row">
+			<section>
+				<img src="images/my-photo.png" style="border: #999900 solid 3px">
+			</section>
+			<section>
+				<p><i data-feather="camera"></i></p>
+				<p>I'm creative and can make your website look great.</p>
+			</section>
+			<section>
+				<p><i data-feather="coffee"></i></p>
+				<p> have up-to-date- full stack WebDev skills.</p>
+			</section>
+			<section>
+				<p><i data-feather="phone-call"></i></p>
+				<p>Just call or write to discuss your project needs!</p>
+			</section>
+		</div>
+		<div id="career">
+			<h2>Career Highlights</h2>
+			<ul>
+				<li>Built several custom websites to client specifications with all server-side code 
+				built using the <a href="https://www.yiiframework.com/" target="_blank">Yii framework</a> for
+				PHP. All client-side code for those sites was built using 
+				the <a href="https://reactjs.org/" target="_blank">React</a> Javascript framework.</li>
+				<li>Wire-framed and built the <a href="https://www.technocracy.news/" target="_blank">Technocracy.news</a>
+				site using the powerful <a href="https://mhthemes.com/themes/mh-newsdes" target="_blank">MH Newsdesk theme</a> for WordPress,
+				along witha  half dozen selected WordPress plugins.</li>
+				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+				Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Et molestie ac feugiat sed lectus. Aliquet enim tortor at auctor urna nunc. </li>
+			</ul>
+		</div>
+		<div id="work-history">
+			<h2>Project & Work History</h2>
+			<div>
+				<h3>1st Career Experience</h3>
+				<p><img src="images/work-experience-1.png">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. 
+				Et molestie ac feugiat sed lectus. Aliquet enim tortor at auctor urna nunc. 
+				Molestie nunc non blandit massa enim. Consectetur lorem donec massa sapien faucibus. 
+				Sed turpis tincidunt id aliquet risus feugiat in ante. Purus viverra accumsan in nisl. 
+				Mi bibendum neque egestas congue quisque egestas diam in arcu. 
+				Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit.</p>
+			</div>
+			<div>
+				<h3>2nd Career Experience</h3>
+				<p><img src="images/work-experience-2.png">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. 
+				Et molestie ac feugiat sed lectus. Aliquet enim tortor at auctor urna nunc. 
+				Molestie nunc non blandit massa enim. Consectetur lorem donec massa sapien faucibus. 
+				Sed turpis tincidunt id aliquet risus feugiat in ante. Purus viverra accumsan in nisl. 
+				Mi bibendum neque egestas congue quisque egestas diam in arcu. 
+				Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit.</p>
+			</div>
+			<div>
+				<h3>3rd Career Experience</h3>
+				<p><img src="images/work-experience-3.png">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. 
+				Et molestie ac feugiat sed lectus. Aliquet enim tortor at auctor urna nunc. 
+				Molestie nunc non blandit massa enim. Consectetur lorem donec massa sapien faucibus. 
+				Sed turpis tincidunt id aliquet risus feugiat in ante. Purus viverra accumsan in nisl. 
+				Mi bibendum neque egestas congue quisque egestas diam in arcu. 
+				Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit.</p>
+			</div>
+		</div>
+		<div class = "flex-row bottom-row">
+			<section>
+				<h2>Contact</h2>
+				<div id="contact-form">
+					<form action='https://one-small-planet.us/CSIS/resources/contact.php' method = "post">
+						<p style = "padding: 20px; font-style: italic; font size: 110%">Please contact me with any project
+						or career proposals you'd like to discuss!</p>
+
+						<table>
+							<tr>
+								<td>Name:</td>
+								<td><input required name = "name" type = "text" size = "24" maxlength = "44"></td>
+							</tr>
+							<tr>
+								<td>Email:</td>
+								<td><input required name = "email" type = "email" size = "24" maxlength = "44"></td>
+							</tr>
+							<tr>
+								<td>Phone:</td>
+								<td><input required name = "phone" type = "tel" size = "24" maxlength = "24"></td>
+							</tr>
+							<tr>
+								<td>Type:</td>
+								<td>
+									<select id = "project" name = "project">
+										<option value = "full-time">Full-time</option>
+										<option value = "part-time">Part-time</option>
+										<option value = "contract">Contract</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>Notes:</td>
+								<td>
+									<textarea required name = "notes" rows = "6" cols = "24"></textarea><br>
+								</td>
+							</tr>
+						</table>
+						<p><input type = "submit" value = 'Send'></p>
+					</form>
+				</div>
+			</section>
+			<section>
+				<h2>Video</h2>
+				<p>Video introducing yourself, your career objectives and porfolio. Lorem ipsum dolor sit amet, consectetur adipscing elit, 
+				sed do elusmod tempor incididunt ut labore et dolore magna aliqua. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. 
+				Et moleestie ac feugiat sed lectus.</p>
+				<p><iframe width = "100%" height = "450" src = "https://www.youtube.com/embed/pX0on42jHmw" frameborder = "0" allowfullscreen></iframe></p>
+			</section>
+		</div>
+		<script>
+			feather.replace()
+		</script>
+	</div>
+</body>
+</html>
